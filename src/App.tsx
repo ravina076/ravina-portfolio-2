@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState } from 'react'
 import { motion, useScroll, useSpring, type Variants } from 'framer-motion'
-import profilePhoto from './assets/profile-photo.jpeg'
-import certPython from './assets/cert-python.jpeg'
-import certDiploma from './assets/cert-diploma.jpeg'
+import profilePhoto from './assets/profile.jpeg'
+import certPython from './assets/cert.jpeg'
+import certDiploma from './assets/doc.jpeg'
 
 const NAV_SECTIONS = [
   { id: 'about', label: 'About' },
